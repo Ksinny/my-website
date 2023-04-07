@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Ksinny',
+  tagline: 'Ksinny\'s blog :! ',
+  favicon: 'img/myfavicon.ico',
 
   // Set the production url of your site here
   url: 'https://ksinny.netlify.app',
@@ -39,6 +39,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -58,76 +59,138 @@ const config = {
     ],
   ],
 
+
+plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "network",
+        path: "cs/network",
+        routeBasePath: "cs/network",
+        sidebarPath : require.resolve("./sidebarsNetwork.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "dataStructure",
+        path: "cs/dataStructure",
+        routeBasePath: "cs/dataStructure",
+        sidebarPath : require.resolve("./sidebarsDataStructure.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "database",
+        path: "cs/database",
+        routeBasePath: "cs/database",
+        sidebarPath : require.resolve("./sidebarsDatabase.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "operatingSystem",
+        path: "cs/operatingSystem",
+        routeBasePath: "cs/operatingSystem",
+        sidebarPath : require.resolve("./sidebarsOperatingSystem.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "CSBasic",
+        path: "cs/CSBasic",
+        routeBasePath: "cs/CSBasic",
+        sidebarPath : require.resolve("./sidebarsCSBasic.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "designPattern",
+        path: "cs/designPattern",
+        routeBasePath: "cs/designPattern",
+        sidebarPath : require.resolve("./sidebarsDesignPattern.js"),
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Ksinny',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'My-Logo',
+          /*src: 'img/logo.svg',*/
+          src: 'img/MyLogo.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'About',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            label: 'CS',
+            position: 'left',
+            items: [
+              {
+                 type: "doc",
+                 docsPluginId: "CSBasic",
+                 label: "CS기초",
+                 docId: "intro",
+              },
+              {
+                 type: "doc",
+                 docsPluginId: "designPattern",
+                 label: "디자인패턴",
+                 docId: "intro",
+              },
+              {
+                type: "doc",
+                docsPluginId: "network",
+                label: "네트워크",
+                docId: "intro",
+              },
+              {
+                 type: "doc",
+                 docsPluginId: "operatingSystem",
+                 label: "운영체제",
+                 docId: "intro",
+              },
+              {
+                 type: "doc",
+                 docsPluginId: "database",
+                 label: "데이터베이스",
+                 docId: "intro",
+              },
+              {
+                 type: "doc",
+                 docsPluginId: "dataStructure",
+                 label: "자료구조",
+                 docId: "intro",
+              },
+
+            ],
+          },
+          {
+            href: 'https://github.com/Ksinny',
             label: 'GitHub',
             position: 'right',
+           /* src: 'MyLogo.png',*/
           },
-        ],
+       ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ksinny, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
