@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'CS',
-    /*Svg: require('@site/static/img/myLogo.svg').default,*/
+    Svg: require('@site/static/img/myLogo.svg').default,
     description: (
       <>
         CS 기초 이론 정리
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'TIL',
-/*    Svg: require('@site/static/img/myLogo.svg').default,*/
+    Svg: require('@site/static/img/myLogo.svg').default,
     description: (
       <>
         TIL(Today I Learning) 기록
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Algorithm',
-/*    Svg: require('@site/static/img/myLogo.svg').default,*/
+    Svg: require('@site/static/img/myLogo.svg').default,
     description: (
       <>
        Beakjun, Programmers, SWEA, LeetCode 풀이
