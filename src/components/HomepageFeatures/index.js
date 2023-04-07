@@ -5,9 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'CS',
-/*
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-*/
     description: (
       <>
        CS Basic
@@ -16,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'TIL',
-    /*Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,*/
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         TIL(Today I Learning)
@@ -25,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Algorithm',
-/*    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,*/
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
        Beakjun, Programmers, SWEA, LeetCode
