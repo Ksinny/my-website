@@ -190,9 +190,10 @@ plugins: [
       },
       algolia: {
           appId: 'DDRZD4XC36',
-          apiKey: 'e4ea3af9254baa30da8df4a55d2642df',
+          apiKey: '0c144633c68aa0f158f1cde45ace310d',
           indexName: 'ksinny',
           position: 'right',
+          contextualSearch: false,
       },
       footer: {
         style: 'dark',
