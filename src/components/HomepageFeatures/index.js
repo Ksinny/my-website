@@ -10,7 +10,7 @@ const FeatureList = [
 */
     description: (
       <>
-       CS 기초 이론 정리
+       CS Basic
       </>
     ),
   },
@@ -19,7 +19,7 @@ const FeatureList = [
     /*Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,*/
     description: (
       <>
-        TIL(Today I Learning) 기록
+        TIL(Today I Learning)
       </>
     ),
   },
@@ -28,7 +28,7 @@ const FeatureList = [
 /*    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,*/
     description: (
       <>
-       Beakjun, Programmers, SWEA, LeetCode 풀이
+       Beakjun, Programmers, SWEA, LeetCode
       </>
     ),
   },
