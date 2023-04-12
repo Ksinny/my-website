@@ -188,12 +188,13 @@ plugins: [
                  docId: "intro",
               },
             ],
+          };
           {
-            type: "doc",
-            docsPluginId: "Java",
-            label: "Java",
-            docId: "intro",
-          },
+             type: "doc",
+             docsPluginId: "Java",
+             label: "Java",
+             docId: "intro",
+           },
           {
             href: 'https://github.com/Ksinny',
             label: 'GitHub',
