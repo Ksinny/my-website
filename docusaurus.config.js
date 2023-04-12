@@ -115,6 +115,16 @@ plugins: [
         sidebarPath : require.resolve("./sidebarsDesignPattern.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "Java",
+        path: "java",
+        routeBasePath: "java",
+        sidebarPath : require.resolve("./sidebarsJava.js"),
+      },
+    ],
+
   ],
 
   themeConfig:
@@ -177,8 +187,12 @@ plugins: [
                  label: "자료구조",
                  docId: "intro",
               },
-
             ],
+          {
+            type: "doc",
+            docsPluginId: "Java",
+            label: "Java",
+            docId: "intro",
           },
           {
             href: 'https://github.com/Ksinny',
