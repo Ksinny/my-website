@@ -188,7 +188,7 @@ plugins: [
                  docId: "intro",
               },
             ],
-          };
+          },
           {
              type: "doc",
              docsPluginId: "Java",
