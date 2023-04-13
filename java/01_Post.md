@@ -73,7 +73,7 @@ Open JDK를 설치할 수 있는 다양한 사이트 중 [adoptium](https://adop
 
 > JDK 설치 경로는 C:￦Program Files￦Java 경로를 추천합니다.
 
-**⑥ CMD에 <code> java -version</code> 를 입력해 설치가 되었는지 확인합니다.**
+**⑥ CMD에 <code> java -version</code> 를 입력해 설치 여부 확인**
 
 
 ![img_3.png](img_3.png)
@@ -107,8 +107,75 @@ JAVA에서 자주 사용되는 IDE에는 eclipse, intelliJ가 있는데 저는 �
 **③ 설치 진행 후 재부팅**
 
 
-이렇게 JDK 설치와 IDE 설치까지 정리해보았습니다. 다음 게시글은 기초 IDE 사용 방법과 자료형, 변수에 대해 알아보겠습니다.
 
 
+## JAVA 코드 작성하기
 
 
+　 
+
+**① 설치한 intelliJ를 실행**
+
+<img alt="img_6.png" height="320" src="img_6.png" width="400"/>
+
+**② New Project로 새 프로젝트 생성**
+
+
+**③ 원하는 프로젝트 경로와 이름 설정**
+
+![img_7.png](img_7.png)
+
+**④ scr 폴더 하위에 java class 파일 생성**
+
+![img_8.png](img_8.png)
+![img_9.png](img_9.png)
+
+**⑤ 클래스 생성 완료**
+
+```java
+public class _01_helloWorld {
+}
+```
+> class 키워드로 _01_helloWorld 이름의 클래스를 선언합니다. 
+
+**⑥ 메인 메소드 main() 작성**
+```java
+public class _01_helloWorld {
+    public static void main(String[] args) {
+        // 이곳에 코드를 작성합니다.
+    }
+}
+```
+> 자바 프로그램은 기본적으로 main()에서 실행 시작됩니다. 
+> public static void로 메인 메소드를 선언합니다.
+
+**⑦ System.out.println()로 화면에 출력**
+```java
+public class _01_helloWorld {
+    public static void main(String[] args) {
+        System.out.println("출력할 내용을 작성합니다.");
+    }
+}
+```
+> 표준 출력 스트림 System.out의 println() 메소드를 호출합니다.
+> println() 의 **ln**은 내용 출력 후 다음 행으로 줄바꿈하는 역할입니다.
+
+**⑧ Ctrl + Shift + F10 으로 첫 실행**
+> 첫 실행 이전 우측 상단 재생 모양의 Run이 비활성화 되어 있습니다.
+> 
+> Ctrl + Shift + F10으로 실행하면
+> 하면 에디터에 다음과 같이 println() 내에 작성한 문장이 출력됩니다.
+>
+> 
+> ![img_10.png](img_10.png)
+
+**⑨ 추가 사항**
+> 첫 실행 이후에는 Ctrl + F10를 통해 코드를 실행할 수 있습니다.
+> 
+> 모든 문장은 세미콜론 (;)으로 끝나야 합니다.
+
+
+ 　
+
+이렇게 JDK설치와 IDE 설치, java 클래스 생성까지 알아보았습니다.
+다음 게시글은 자료형, 변수에 대해 알아보겠습니다.
