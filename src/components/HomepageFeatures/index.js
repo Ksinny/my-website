@@ -2,6 +2,8 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
+<meta name="google-site-verification" content="XEaEXhYrcMM3pl4IcDekw-dDEpfZToRF2D6FTLxOfF0" />
+
 const FeatureList = [
   {
     title: 'CS',

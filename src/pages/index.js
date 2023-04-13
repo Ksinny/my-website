@@ -7,6 +7,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
+<meta name="google-site-verification" content="XEaEXhYrcMM3pl4IcDekw-dDEpfZToRF2D6FTLxOfF0" />
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
