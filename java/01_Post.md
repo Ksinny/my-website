@@ -177,6 +177,7 @@ JAVA에서 자주 사용되는 IDE에는 eclipse, intelliJ가 있는데 저는 �
 
 
 <space>　
+</space>
 
 이렇게 JDK설치와 IDE 설치, java 클래스 생성까지 알아보았습니다.
 다음 게시글은 자료형, 변수에 대해 알아보겠습니다.
