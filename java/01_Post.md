@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 slug: /javaBeginner
 ---
 
@@ -44,8 +44,6 @@ JAVA를 본격적으로 이용하기에 앞서서 JDK를 컴퓨터에 설치해�
 
 > JDK란(Java Development Kit) 자바 소프트웨어 개발환경으로, 자바 개발 도구(컴파일러 등) + JRE(JVM + 자바API)로 구성되어있는 통합적인 개발 도구입니다.
 
-위에 언급된 JRE는, Java Runtime Environment로 자바 실행 환경을 뜻합니다.
-JRE에는 JVM과 컴파일된 자바 API 클래스들이 들어있는 모듈 파일 등이 포함되어 있습니다.
 
 ### JDK 다운로드
 
@@ -54,25 +52,26 @@ JDK에는 Oracle JDK, Open JDK, Amazon JDK 등 다양한 종류가 있습니다.
 Open JDK를 설치할 수 있는 다양한 사이트 중 [adoptium](https://adoptium.net/)
 를 이용하여 JDK를 설치해보겠습니다.
 
+　
 
 **① [adoptium](https://adoptium.net/) 접속**
 
 **② Other platforms and versions 클릭**
 
-Latest LTS Release를 이용하여 가장 최신의 LTS 버전을 다운받을 수도 있지만,
+> Latest LTS Release를 이용하여 가장 최신의 LTS 버전을 다운받을 수도 있지만,
 현재 시장에서 가장 많이 사용되는 8, 11버전을 이용하기 위함입니다.
 
 **③ 원하는 버전과 운영체제 선택**
 
-Operating System : Windows 
-
-Version : 8 or 11
+> Operating System : Windows 
+> 
+> Version : 8 or 11
 
 **④ .msi 파일 다운로드**
 
 **⑤ 다운받은 파일 실행 후 JDK 설치 완료**
 
-JDK 설치 경로는 C:￦Program Files￦Java 경로를 추천합니다.
+> JDK 설치 경로는 C:￦Program Files￦Java 경로를 추천합니다.
 
 **⑥ CMD에 <code> java -version</code> 를 입력해 설치가 되었는지 확인합니다.**
 
@@ -80,9 +79,9 @@ JDK 설치 경로는 C:￦Program Files￦Java 경로를 추천합니다.
 ![img_3.png](img_3.png)
 
 위 사진처럼 출력된다면 설치가 정상적으로 마무리 된 것입니다. 만약 사진처럼 나오지 않는다면 설치가 정상적으로 되지 않았거나 환경변수 설정이 되어있지 않았기 때문입니다.
-
+　
 ### 환경변수 설정
-
+ 
 **① 윈도우 검색창에 "시스템 환경 변수 편집"**
 
 **② [고급] -> [환경변수] 클릭**
@@ -98,6 +97,8 @@ JDK 설치 경로는 C:￦Program Files￦Java 경로를 추천합니다.
 대부분의 개발자는 IDE를 이용하여 프로그래밍하는데, 언어별로 주로 사용되는 IDE가 매우 다양합니다.
 
 JAVA에서 자주 사용되는 IDE에는 eclipse, intelliJ가 있는데 저는 이 중에서 intelliJ를 사용합니다.
+
+  　
 
 **① [IntelliJ](https://www.jetbrains.com/ko-kr/idea/download/#section=windows) 사이트 접속**
 
