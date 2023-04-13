@@ -33,7 +33,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+/*
   ssrTemplete: [
       `<!DOCTYPE html>
       <html <%~ it.htmlAttributes %>>
@@ -45,7 +45,7 @@ const config = {
          <%~ it.headTags %>
         </head>
       </html>`,
-  ],
+  ],*/
 
   presets: [
     [
