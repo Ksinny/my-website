@@ -116,7 +116,7 @@ JAVA에서 자주 사용되는 IDE에는 eclipse, intelliJ가 있는데 저는 �
 
 **① 설치한 intelliJ를 실행**
 
-<img alt="img_6.png" height="320" src="img_6.png" width="400"/>
+![img_6.png](img_6.png)
 
 **② New Project로 새 프로젝트 생성**
 
@@ -131,34 +131,35 @@ JAVA에서 자주 사용되는 IDE에는 eclipse, intelliJ가 있는데 저는 �
 ![img_9.png](img_9.png)
 
 **⑤ 클래스 생성 완료**
+> class 키워드로 _01_helloWorld 이름의 클래스를 선언합니다.
+> ```java
+> public class _01_helloWorld {
+> }
+> ```
 
-```java
-public class _01_helloWorld {
-}
-```
-> class 키워드로 _01_helloWorld 이름의 클래스를 선언합니다. 
 
 **⑥ 메인 메소드 main() 작성**
-```java
-public class _01_helloWorld {
-    public static void main(String[] args) {
-        // 이곳에 코드를 작성합니다.
-    }
-}
-```
-> 자바 프로그램은 기본적으로 main()에서 실행 시작됩니다. 
+> 자바 프로그램은 기본적으로 main()에서 실행 시작됩니다.
 > public static void로 메인 메소드를 선언합니다.
+>```java
+>public class _01_helloWorld {
+>    public static void main(String[] args) {
+>       // 이곳에 코드를 작성합니다.
+>    }
+>}
+>```
 
 **⑦ System.out.println()로 화면에 출력**
-```java
-public class _01_helloWorld {
-    public static void main(String[] args) {
-        System.out.println("출력할 내용을 작성합니다.");
-    }
-}
-```
 > 표준 출력 스트림 System.out의 println() 메소드를 호출합니다.
 > println() 의 **ln**은 내용 출력 후 다음 행으로 줄바꿈하는 역할입니다.
+>
+>```java
+>public class _01_helloWorld {
+>    public static void main(String[] args) {
+>        System.out.println("출력할 내용을 작성합니다.");
+>    }
+>}
+>```
 
 **⑧ Ctrl + Shift + F10 으로 첫 실행**
 > 첫 실행 이전 우측 상단 재생 모양의 Run이 비활성화 되어 있습니다.
@@ -175,7 +176,7 @@ public class _01_helloWorld {
 > 모든 문장은 세미콜론 (;)으로 끝나야 합니다.
 
 
- 　
+<space>　
 
 이렇게 JDK설치와 IDE 설치, java 클래스 생성까지 알아보았습니다.
 다음 게시글은 자료형, 변수에 대해 알아보겠습니다.
