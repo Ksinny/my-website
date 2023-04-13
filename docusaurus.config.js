@@ -5,18 +5,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-ssrTemplete: {
-    `<!DOCTYPE html>
-    <html <%~ it.htmlAttributes %>>
-      <head>
-      <meta name="google-site-verification" content="XEaEXhYrcMM3pl4IcDekw-dDEpfZToRF2D6FTLxOfF0" />
-      <% it.metaAttributes.forEach((metaAttribute) => { %>
-         <%~ metaAttribute %>
-       <% }); %>
-       <%~ it.headTags %>
-      </head>
-    </html>`,
-};
+
 
 const config = {
   title: 'Ksinny',
@@ -44,6 +33,19 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  ssrTemplete: [
+      `<!DOCTYPE html>
+      <html <%~ it.htmlAttributes %>>
+        <head>
+        <meta name="google-site-verification" content="XEaEXhYrcMM3pl4IcDekw-dDEpfZToRF2D6FTLxOfF0" />
+        <% it.metaAttributes.forEach((metaAttribute) => { %>
+           <%~ metaAttribute %>
+         <% }); %>
+         <%~ it.headTags %>
+        </head>
+      </html>`,
+  ],
 
   presets: [
     [
