@@ -35,6 +35,10 @@ slug: /comment
 
 ## 단축키
 
+:::tip 단축키
 <code> //</code> 단축키 : Ctrl + /
 
+<space></space>
+
 <code>/*</code> 단축키 : Ctrl + Shift + /
+:::
