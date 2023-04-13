@@ -17,7 +17,6 @@ slug: /comment
 >```java
 >// System.out.println("주석처리 할 문장입니다.");
 >```
-
 > 또는 작성한 코드에 간단한 메모를 하고 싶을 때는 
 > 다음과 같이 문장이 끝난 맨 뒷부분에 주석을 작성할 수 있습니다.
 > ```java
@@ -39,6 +38,8 @@ slug: /comment
 <code> //</code> 단축키 : Ctrl + /
 
 <space></space>
+　
+  
 
 <code>/*</code> 단축키 : Ctrl + Shift + /
 :::
