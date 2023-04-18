@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-slug: /assignment
+slug: /increaseAndDecrease
 ---
 
 # 증감 연산자
