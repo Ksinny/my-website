@@ -14,7 +14,7 @@ boolean a = true
 boolean b = false
 ```
 
-**① 논리곱 AND 연산** : 피연산자 모두 true일 경우 true
+**① 논리곱 AND 연산** : 피연산자 **모두 true**일 경우 true
 > `[피연산자] && [피연산자]`
 >```java
 > System.out.println(true && true); // true
@@ -24,7 +24,7 @@ boolean b = false
 >```
 
 
-**② 논리합 OR 연산** : 피연산자 중 하나라도 true일 경우 true
+**② 논리합 OR 연산** : 피연산자 중 **하나라도 true**일 경우 true
 > `[피연산자] || [피연산자]`
 >```java
 > System.out.println(true || true); // true
@@ -33,7 +33,7 @@ boolean b = false
 > System.out.println((10 > 5) || (2 == 20)) // true (true || false)
 >```
 
-**③ 베타적 논리합 XOR 연산** : 피연산자의 논리 값이 다를 경우 true
+**③ 베타적 논리합 XOR 연산** : 피연산자의 논리 값이 **다를 경우** true
 > `[피연산자] ^ [피연산자]`
 >```java
 > System.out.println(true ^ true); // false
@@ -42,7 +42,7 @@ boolean b = false
 > System.out.println((10 > 5) ^ (2 == 20)) // true (true || false)
 >```
 
-**④ 논리 부정 NOT 연산** : 피연산자의 논리값을 반대로 바꿈 (true → false / false → true)
+**④ 논리 부정 NOT 연산** : 피연산자의 논리값을 **반대로** 바꿈 (true → false / false → true)
 > `![피연산자]`
 >```java
 > System.out.println(!true); // false

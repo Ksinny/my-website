@@ -28,3 +28,6 @@ slug: /ternary
 > result = (5 < 3) || (11 != 11) ? "TRUE" : "FALSE";
 > System.out.println(result); // "FALSE"
 >```
+
+
+사진 출처 : https://www.hanbit.co.kr/store/books/look.php?p_code=B5635758676
