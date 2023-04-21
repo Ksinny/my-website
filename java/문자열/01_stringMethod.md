@@ -313,5 +313,5 @@ String s = "Hello? I like strawberry and pineapple and tomato."
 
 이 밖에도 charAt(), getBytes(), equals() 등 많은 메소드가 있다.
 
-특히 equals() 메소드는 ![다음 포스트](02_stringEqulas.md)에서 자세히 다룰 예정이다.
+특히 equals() 메소드는 [다음 포스트](02_stringEquals.md)에서 자세히 다룰 예정이다.
 
