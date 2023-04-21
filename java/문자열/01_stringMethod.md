@@ -11,6 +11,20 @@ String은 기본 자료형이 아닌 java.lang 패키지에 속한 클래스입�
 String 클래스에 내장된 여러 메소드로 문자열을 여러 방면으로 활용할 수 있는데, 
 그 중 가장 많이 이용되는 메소드 몇가지를 살펴보겠습니다.
 
+시작하기에 앞서, 인덱스(index)를 간단히 알아보겠습니다.
+
+
+```java
+String str = "Hello"
+```
+Hello라는 문자열을 String 자료형 변수 str에 저장했을 때, 이 문자열의 인덱스는 다음과 같이 매겨집니다.
+
+![img_1.png](img_1.png)
+
+여기서 인덱스 번호는 **0부터 시작**된다는 점을 유의해야 합니다.
+Hello의 **첫** 문자 H의 인덱스는 **0**, **마지막** 문자의 인덱스는 **4**입니다.
+
+
 ```java
 String s = "Hello? I like strawberry and pineapple and tomato."
 ```
@@ -229,7 +243,7 @@ String s = "Hello? I like strawberry and pineapple and tomato."
 
 
 ### substring()
-> 지정 인덱스부터 문장의 끝까지 혹은 끝낼 인덱스까지 잘라낸 새로운 문자열을 리턴합니다.
+> 지정 인덱스부터 문장의 끝까지 혹은 끝낼 인덱스 앞까지 잘라낸 새로운 문자열을 리턴합니다.
 >
 > **문법**
 >
@@ -252,11 +266,14 @@ String s = "Hello? I like strawberry and pineapple and tomato."
 > ```java
 > System.out.println(s.substring(7)); // 인덱스 기준 7(I)부터 시작하는 문자열 반환
 > // I like strawberry and pineapple and tomato.
+> 
 > System.out.println(s.substring(7, 25)) // 인덱스 7(I)부터 25(a(nd))사이를 잘라낸 문자열 반환
 > // I like strawberry
+> 
 > System.out.println(s.substring(s.indexOf("and"))); 
 > // "and"가 시작하는 위치부터 문장의 끝까지 잘라낸 문자열 반환
 > //  pineapple and tomato.
+> 
 > System.out.println(s.substring(s.indexOf("and"), s.indexOf("."))); 
 > // "and"가시작하는 위치부터 "." 직전까지 잘라낸 문자열 반환
 > //  pineapple and tomato
@@ -311,7 +328,9 @@ String s = "Hello? I like strawberry and pineapple and tomato."
 > System.out.println(s1 + ", " + "s2") // Black, Pink
 > ```
 
-이 밖에도 charAt(), getBytes(), equals() 등 많은 메소드가 있다.
+이 밖에도 charAt(), getBytes(), equals() 등 주로 사용되는 메소드들이 있습니다.
 
-특히 equals() 메소드는 [다음 포스트](02_stringEquals.md)에서 자세히 다룰 예정이다.
+특히 equals() 메소드는 [다음 포스트](02_stringCompare.md)에서 자세히 다룰 예정입니다.
 
+
+사진 출처 : https://codingbat.com/doc/java-string-introduction.html
