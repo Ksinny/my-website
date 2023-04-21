@@ -6,7 +6,7 @@ slug: /escapeSequence
 # 이스케이프 문자
 
 이스케이프 문자란?
-> 문자열 내부에 역슬래시 ￦(\)를 이용하여 특정 문자를 포함시키는 문자를 뜻합니다.
+> 문자열 내부에 역슬래시 ￦ 를 이용하여 특정 문자를 포함시키는 문자를 뜻합니다.
 
 문자열과 명령어를 구별하기 위해 출력 문자열 사이에서 탈출 시킨다는 뜻으로 Escape Sequence라고 불립니다.
 명령어라고 인식 시키기 위하여 명령어 문자 앞에 역슬래시 ￦를 함께 작성합니다.
@@ -36,7 +36,7 @@ System.out.println("ksinny\tJava Engineer");
 // ksinny   JavaEngineer
 ```
 
-③ `￦￦` `\\` : 역슬래시
+③ `￦￦` : 역슬래시
 ```java
 System.out.println(C"\\Program Files\\Java");
 // C:\Program Files\Java
