@@ -84,7 +84,7 @@ public class People {
         phone = editNumber;
         
         return phone;
-    };
+    }
 }
 ```
 
@@ -120,7 +120,7 @@ public class People {
         phone = editNumber;
         
         return phone;
-    };
+    }
 }
 ```
 
