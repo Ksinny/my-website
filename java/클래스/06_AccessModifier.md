@@ -18,7 +18,7 @@ slug: /AccessModifier
 : 모든 클래스에게 접근 허용
 
 2. protected  
-: 같은 패키지 내의 다른 모든 클래스에게 접근 허용  
+: 같은 패키지 내의 모든 클래스에게 접근 허용  
 : 다른 클래스인 경우 자식 패키지에게도 접근 허용  
   
 3. default  
@@ -29,6 +29,7 @@ slug: /AccessModifier
 : 해당 클래스 내에서만 접근 허용
 
    
+
 # Getter 와 Setter
 
 getter와 setter 메소드를 통해 데이터를 안전하게 변경할 수 있습니다.  
